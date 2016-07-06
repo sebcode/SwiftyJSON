@@ -426,12 +426,18 @@
 				TargetAttributes = {
 					2E4FEFDA19575BE100351305 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 337Z8P6WA4;
+						DevelopmentTeamName = "BEAM COMMUNICATIONS PTY LTD";
 						LastSwiftMigration = 0800;
 					};
 					2E4FEFE519575BE100351305 = {
 						CreatedOnToolsVersion = 6.0;
 						LastSwiftMigration = 0800;
 						TestTargetID = 2E4FEFDA19575BE100351305;
+					};
+					7236B4EC1BAC14150020529B = {
+						DevelopmentTeam = 337Z8P6WA4;
+						DevelopmentTeamName = "BEAM COMMUNICATIONS PTY LTD";
 					};
 					9C7DFC5A1A9102BD005AA3F7 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -441,6 +447,10 @@
 					};
 					A8580F731BCF5C5B00DA927B = {
 						CreatedOnToolsVersion = 7.1;
+					};
+					E4D7CCDE1B9465A700EE7221 = {
+						DevelopmentTeam = 337Z8P6WA4;
+						DevelopmentTeamName = "BEAM COMMUNICATIONS PTY LTD";
 					};
 				};
 			};
