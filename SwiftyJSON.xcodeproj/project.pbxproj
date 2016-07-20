@@ -426,8 +426,6 @@
 				TargetAttributes = {
 					2E4FEFDA19575BE100351305 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 337Z8P6WA4;
-						DevelopmentTeamName = "BEAM COMMUNICATIONS PTY LTD";
 						LastSwiftMigration = 0800;
 					};
 					2E4FEFE519575BE100351305 = {
