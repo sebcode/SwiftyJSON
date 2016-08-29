@@ -31,7 +31,7 @@ class BaseTests: XCTestCase {
         
         super.setUp()
         
-        if let file = Bundle(for:BaseTests.self).pathForResource("Tests", ofType: "json") {
+        if let file = Bundle(for:BaseTests.self).path(forResource: "Tests", ofType: "json") {
             self.testData = try? Data(contentsOf: URL(fileURLWithPath: file))
         } else {
             XCTFail("Can't find the test JSON file")
@@ -52,7 +52,7 @@ class BaseTests: XCTestCase {
         dictionary.setObject(NSNull(), forKey: "null" as NSString)
         _ = JSON(dictionary)
         do {
-            let object: AnyObject = try JSONSerialization.jsonObject(with: self.testData, options: [])
+            let object: Any = try JSONSerialization.jsonObject(with: self.testData, options: [])
             let json2 = JSON(object)
             XCTAssertEqual(json0, json2)
         } catch _ {
@@ -150,6 +150,8 @@ class BaseTests: XCTestCase {
     }
 
     func testNumberConvertToString(){
+        let test = JSON(true)
+        print("\(test.type)")
         XCTAssertEqual(JSON(true).stringValue, "true")
         XCTAssertEqual(JSON(999.9823).stringValue, "999.9823")
         XCTAssertEqual(JSON(true).number!.stringValue, "1")
@@ -183,6 +185,12 @@ class BaseTests: XCTestCase {
         XCTAssertEqual(JSON(-9999999991999999999999999.88888883433343439438493483483943948341).stringValue,"-9.999999991999999e+24")
 
         XCTAssertEqual(JSON(Int(Int.max)).description,"\(Int.max)")
+        
+        let test = JSON(NSNumber(value: Int.min))
+        print(test.rawNumber)
+        print(test.description)
+        print("\(Int.min)")
+        
         XCTAssertEqual(JSON(NSNumber(value: Int.min)).description,"\(Int.min)")
         XCTAssertEqual(JSON(NSNumber(value: UInt.max)).description,"\(UInt.max)")
         XCTAssertEqual(JSON(NSNumber(value: UInt64.max)).description,"\(UInt64.max)")
