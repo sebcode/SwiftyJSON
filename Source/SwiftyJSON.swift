@@ -456,9 +456,9 @@ extension JSON: Swift.BooleanLiteralConvertible {
     //Optional bool
     public var bool: Bool? {
         get {
-            print("\(object) is \(type)")
+//            print("\(object) is \(type)")
             switch self.type {
-            case .bool:
+            case .bool, .number:
                 return self.rawNumber.boolValue
             default:
                 return nil

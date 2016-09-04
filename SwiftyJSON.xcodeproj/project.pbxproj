@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A8E68D1D7CDE9000DE4768 /* TestBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A8E68C1D7CDE9000DE4768 /* TestBool.swift */; };
+		12A8E68E1D7CDE9000DE4768 /* TestBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A8E68C1D7CDE9000DE4768 /* TestBool.swift */; };
+		12A8E68F1D7CDE9000DE4768 /* TestBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A8E68C1D7CDE9000DE4768 /* TestBool.swift */; };
 		2E4FEFE119575BE100351305 /* SwiftyJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4FEFE019575BE100351305 /* SwiftyJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E4FEFE719575BE100351305 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4FEFDB19575BE100351305 /* SwiftyJSON.framework */; };
 		7236B4EE1BAC14150020529B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8491E1D19CD6DAE00CCFAE6 /* SwiftyJSON.swift */; };
@@ -88,6 +91,7 @@
 
 /* Begin PBXFileReference section */
 		030B6CDC1A6E171D00C2D4F1 /* Info-OSX.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-OSX.plist"; sourceTree = "<group>"; };
+		12A8E68C1D7CDE9000DE4768 /* TestBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBool.swift; sourceTree = "<group>"; };
 		2E4FEFDB19575BE100351305 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4FEFDF19575BE100351305 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		2E4FEFE019575BE100351305 /* SwiftyJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
@@ -237,6 +241,7 @@
 				A8B66C8B19E51D6500540692 /* DictionaryTests.swift */,
 				A8B66C8D19E52F4200540692 /* ArrayTests.swift */,
 				2E4FEFEB19575BE100351305 /* Supporting Files */,
+				12A8E68C1D7CDE9000DE4768 /* TestBool.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -560,6 +565,7 @@
 				A885D1D219CF1EE6002FD4C3 /* BaseTests.swift in Sources */,
 				A8B66C8E19E52F4200540692 /* ArrayTests.swift in Sources */,
 				A8B66C8C19E51D6500540692 /* DictionaryTests.swift in Sources */,
+				12A8E68D1D7CDE9000DE4768 /* TestBool.swift in Sources */,
 				A819C4A119E37FC600ADCC3D /* PrintableTests.swift in Sources */,
 				A819C49719E1A7DD00ADCC3D /* LiteralConvertibleTests.swift in Sources */,
 				A87080EA19E43C0700CDE086 /* StringTests.swift in Sources */,
@@ -572,6 +578,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7236B4EE1BAC14150020529B /* SwiftyJSON.swift in Sources */,
+				12A8E68F1D7CDE9000DE4768 /* TestBool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +603,7 @@
 				9C459EF91A9103C1008C9A41 /* PerformanceTests.swift in Sources */,
 				9C459EFE1A9103C1008C9A41 /* LiteralConvertibleTests.swift in Sources */,
 				9C459EFC1A9103C1008C9A41 /* PrintableTests.swift in Sources */,
+				12A8E68E1D7CDE9000DE4768 /* TestBool.swift in Sources */,
 				9C459F011A9103C1008C9A41 /* StringTests.swift in Sources */,
 				9C459F031A9103C1008C9A41 /* RawTests.swift in Sources */,
 				9C459F051A9103C1008C9A41 /* ArrayTests.swift in Sources */,
