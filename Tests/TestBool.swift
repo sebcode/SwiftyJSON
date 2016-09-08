@@ -14,6 +14,7 @@ class TestBool: XCTestCase {
     func testBool() {
         let value: [String: Any] = ["test": true, "anotherTest": false]
         let json = JSON(value)
+        print(json)
         
         guard let text = json.rawString() else {
             XCTFail("Failed to convert JSON to String")
